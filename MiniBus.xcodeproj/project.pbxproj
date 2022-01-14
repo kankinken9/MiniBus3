@@ -17,6 +17,10 @@
 		A17101EE2791A98500553014 /* MiniBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17101ED2791A98500553014 /* MiniBusTests.swift */; };
 		A17101F82791A98500553014 /* MiniBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17101F72791A98500553014 /* MiniBusUITests.swift */; };
 		A17101FA2791A98500553014 /* MiniBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17101F92791A98500553014 /* MiniBusUITestsLaunchTests.swift */; };
+		A17102082791AAFA00553014 /* Device+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17102062791AAFA00553014 /* Device+CoreDataClass.swift */; };
+		A17102092791AAFA00553014 /* Device+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17102072791AAFA00553014 /* Device+CoreDataProperties.swift */; };
+		A171020B2791ACBE00553014 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171020A2791ACBE00553014 /* AddEditViewController.swift */; };
+		A171020D2791ACCF00553014 /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A171020C2791ACCF00553014 /* DeviceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A17101F32791A98500553014 /* MiniBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17101F72791A98500553014 /* MiniBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBusUITests.swift; sourceTree = "<group>"; };
 		A17101F92791A98500553014 /* MiniBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A17102062791AAFA00553014 /* Device+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A17102072791AAFA00553014 /* Device+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A171020A2791ACBE00553014 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		A171020C2791ACCF00553014 /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		A17101C72791A98300553014 = {
 			isa = PBXGroup;
 			children = (
+				A17102062791AAFA00553014 /* Device+CoreDataClass.swift */,
+				A17102072791AAFA00553014 /* Device+CoreDataProperties.swift */,
 				A17101D22791A98300553014 /* MiniBus */,
 				A17101EC2791A98500553014 /* MiniBusTests */,
 				A17101F62791A98500553014 /* MiniBusUITests */,
@@ -109,6 +119,8 @@
 				A17101E12791A98400553014 /* LaunchScreen.storyboard */,
 				A17101E42791A98400553014 /* Info.plist */,
 				A17101DC2791A98300553014 /* MiniBus.xcdatamodeld */,
+				A171020A2791ACBE00553014 /* AddEditViewController.swift */,
+				A171020C2791ACCF00553014 /* DeviceViewController.swift */,
 			);
 			path = MiniBus;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17101D82791A98300553014 /* ViewController.swift in Sources */,
+				A171020B2791ACBE00553014 /* AddEditViewController.swift in Sources */,
+				A17102092791AAFA00553014 /* Device+CoreDataProperties.swift in Sources */,
 				A17101D42791A98300553014 /* AppDelegate.swift in Sources */,
+				A171020D2791ACCF00553014 /* DeviceViewController.swift in Sources */,
 				A17101D62791A98300553014 /* SceneDelegate.swift in Sources */,
 				A17101DE2791A98300553014 /* MiniBus.xcdatamodeld in Sources */,
+				A17102082791AAFA00553014 /* Device+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
